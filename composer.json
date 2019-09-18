@@ -21,5 +21,10 @@
     },
     "require-dev": {
         "drupal/console-core": "~1.0"
+    },
+    "extra": {
+        "installer-paths": {
+          "{$name}": ["vendor/drupal"]
+        }
     }
 }
