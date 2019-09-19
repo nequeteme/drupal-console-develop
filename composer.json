@@ -24,7 +24,7 @@
     },
     "extra": {
         "installer-paths": {
-          "{$name}": ["vendor/drupal"]
+          "vendor/drupal/{$name}": ["type:drupal-console-library"]
         }
     }
 }
